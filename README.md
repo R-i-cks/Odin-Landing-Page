@@ -1,2 +1,2 @@
-Primeira página web escrita com HTML e CSS /n
-Disponível para visualização em github pages 
+Primeira página web escrita com HTML e CSS.
+Disponível para visualização como página web, github pages.
