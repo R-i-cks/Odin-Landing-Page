@@ -1,0 +1,170 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0
+}
+
+.hero{
+    background-color: #1f2937;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    padding:30px
+
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap:10px;
+    margin-right: auto;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+.primeiro{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    gap:50px
+}
+
+.big{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
+
+}
+button{
+    background-color: #3882F6 ;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    padding:10px
+
+}
+.informacao{
+    display:flex;
+    flex-direction: column;
+}
+.Logo{
+    font-size: 30px;
+}
+
+.segundo, .terceiro{
+    display:flex;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+    padding:40px
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+img.rounder{
+    border-radius: 30px;
+}
+
+.descricao{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-right: 20% ;
+    flex-wrap: wrap;
+}
+
+.quote{
+    font-size: 36px;
+    display:flex;
+    justify-content: center;
+    color:#1F2937;
+    font-style: italic;
+}
+
+.autor{
+    display: flex;
+    justify-content:center ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.terceiro{
+    padding:10%;
+    background-color: #E5E7EB;
+
+}
+
+.quarto{
+    display:flex;
+    color:#F9FAF8;
+    justify-content: center;
+    padding: 5%
+}
+
+.janela{
+    display:flex;
+    flex-direction:row ;
+    background-color: #3882F6;
+    padding:3%;
+    padding-inline: 25%;
+    border-radius: 20px;
+    gap:70px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: #1f2937;
+    color:#F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.imp{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.minor{
+    font-size:18px;
+}
